@@ -1,0 +1,184 @@
+		html{
+			scroll-behavior: smooth;
+		}
+		body{
+			background-color: #131416;
+		}
+		#container{
+			width: 80%;
+			margin: auto;
+		}
+		#header{
+			position: relative;
+			background-image: url(hero.jpg);
+			background-repeat: no-repeat;
+			background-position: center center;
+			background-size: cover;
+			height: 100vh;
+		}
+		#portfolioHead {
+		    text-transform: uppercase;
+		    color: white;
+		    text-align: center;
+		    position: absolute;
+		    left: 0;
+		    right: 0;
+		    bottom: 0;
+		}
+		/*#header #toggle{
+			background-color: purple;
+			display: flex;
+			justify-content: flex-end;
+		}*/
+		#menu {
+			display: flex;
+			justify-content: space-between;
+			background-color: #541b51;
+			position: fixed;
+			top: 0;
+			width: 100%;
+			z-index: 1;
+		}
+		#menu ul li{
+			display: inline-block;
+			
+		}
+		#menu a {
+		    line-height: 50px;
+		    text-decoration: none;
+		    text-transform: lowercase;
+		    color: tomato;
+		    font-weight: 700;
+		    margin-left: 30px;
+		}
+		#menu ul li a:hover{
+			color: white;
+		}
+		#menu ul li a{
+			text-decoration: none;
+			text-transform: uppercase;
+			margin-right: 15px;
+			line-height: 10px;
+			color: tomato;
+			font-weight: 700;
+		}
+
+
+		#about{
+			display: flex;
+			justify-content: space-around;
+			padding: 20px;
+			flex-wrap: wrap;
+		}
+		#sectionBackground{
+			background-color: #4240A3;
+			z-index: -1;
+		}
+		#about img {
+		    box-shadow: 2px 2px 16px 9px #1f1a196e;
+		    border-radius: 15px;
+		    width: 400px;
+		    height: auto;
+		    overflow: hidden;
+		    transition: 1s;
+		}
+		#sectionBackground img:hover{
+			transform: scale(.9);
+		}
+		#about div{
+			padding: 50px;
+			color: white;
+			width: 40%;
+			text-transform: uppercase;
+			letter-spacing: 3px;
+		}
+		#about div button{
+			padding: 10px;
+			border:2px solid tomato;
+			color: tomato;
+			font-weight: 700;
+			border-radius: 5px;
+			font-size: 15px;
+			background:transparent;
+			transition: 1s;
+		}
+		#about div button:hover{
+			background-color: white;
+			color: black;
+			border:none;
+		}
+		#about span{
+			color: tomato;
+		}
+
+		/*gallery--*/
+		#gallery h1{
+			color: white;
+			background-color: tomato;
+			border-radius: 15px;
+			padding: 10px;
+		}
+		
+		#gallery div{
+			display: flex;
+			justify-content: center;
+			flex-wrap: wrap;
+			width: 100%;
+			
+		}
+		#gallery #imgWrap{
+			width: 100%;
+			overflow: hidden;
+		}
+		#gallery div img{
+			width: 400px;
+			height: 400px;
+			margin: 20px;
+			border-radius: 15px;
+			border:4px double tomato;
+			transition: 1s;
+
+		}
+		#gallery div img:hover{
+			transform: scale(1.1);
+			
+		}
+		/*Project*/
+		#project{
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-around;
+		}
+		.project-card{
+			color: white;
+			width: 300px;
+			height:auto;
+			text-align: justify;
+			padding: 10px;
+		}
+		.project-card img{
+			width: 300px;
+			height: 300px;
+			border-top-right-radius: 5px;
+			border-top-left-radius: 5px;
+
+		}
+		.project-card span{
+			display: block;
+			width: 100px;
+		}
+
+		#footerdiv{
+			background-color: tomato;
+			color: white;
+			height:40px;
+			font-weight: 700;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		/*@media(max-width: 768px){
+			#menu ul li{
+			display: none;
+		}
+		}*/
